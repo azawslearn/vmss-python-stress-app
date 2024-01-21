@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CPU Stress Test</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+
+<body>
+    <h1>CPU Stress Test</h1>
+    <div>Machine Name: {{ machine_name }}</div>
+    <div>IP Address: {{ ip_address }}</div>
+    <div id="cpu-utilization">CPU Utilization: <span id="cpu-value">0</span>%</div>
+
+    <button id="start-stress">Start Stress</button>
+    <button id="reboot-instance">Reboot Instance</button>
+</body>
+
+</html>

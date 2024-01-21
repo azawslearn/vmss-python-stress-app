@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#start-stress {
+    background-color: red;
+    color: white;
+}
+
+#reboot-instance {
+    background-color: green;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
